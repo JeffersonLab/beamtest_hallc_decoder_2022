@@ -1,6 +1,7 @@
 #ifndef GENERAL_EVIO_STRUCT_H_
 #define GENERAL_EVIO_STRUCT_H_
-
+#include <cstdint>
+#include <stdint.h>
 ////////////////////////////////////////////////////////////////
 // A file defines the coda event struct in raw data files (evio)
 

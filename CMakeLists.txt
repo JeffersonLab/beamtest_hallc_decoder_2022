@@ -7,6 +7,7 @@ option(USE_EXTERNAL_EVIO "Use an external EVIO library" OFF)
 option(USE_EXTERNAL_ET "Use an external ET library" OFF)
 
 add_compile_options(-O2)
+add_compile_options(-Wno-narrowing)
 
 include(cmake/os.cmake)
 include(FindThreads)
